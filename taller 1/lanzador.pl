@@ -9,9 +9,9 @@
 #****************************************************************/
 
 $Path = `pwd`;
-chomp($Path);
+chomp($Path); 
 
-$Nombre_Ejecutable = "mmClasicaOpenMP";
+$Nombre_Ejecutable = "mmClasicaOpenMP"; // en este se pone el nombre del ejecutable el cual se cambio por mmClasicaOpenMP
 @Size_Matriz = ("340","320","400","8000","9600","12000","4000","7200");
 @Num_Hilos = (1,2,4,8,16,20);
 $Repeticiones = 30;
