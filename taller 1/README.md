@@ -108,7 +108,7 @@ dependiendo la cantidad de hilos y el tamaño se crea un ejemplo unarchivo.`dat`
 1. `ejemplo`:
 <img width="640" height="537" alt="image" src="https://github.com/user-attachments/assets/adf2b2c1-2187-4942-8c86-c310451dcefa" />
 
-En estos archivos se encuentra 30 lineas una por cada repeticion, co el tiempo de ejecución en microsegunndos
+En estos archivos se encuentra 30 lineas una por cada repeticion, con el tiempo de ejecución en microsegunndos
 
 ## **Ejemplo generado en consola **
 <img width="487" height="264" alt="image" src="https://github.com/user-attachments/assets/8ea0327f-bc20-4c6b-9a33-92df9a2fca46" />
@@ -138,3 +138,11 @@ El script usa librerías estándar de Python más **numpy**:
 
 ```bash
 pip install numpy
+```
+##  resultado
+Se crea un archivo.csv donde estan todos los datos con su respectivo tamño de la matriz,hilos, promedio y desviacion estandar, como se ve a continuació
+<img width="779" height="483" alt="image" src="https://github.com/user-attachments/assets/4bef79d8-40c0-4c6d-93e7-40f9d1e7d6e9" />
+<img width="796" height="420" alt="image" src="https://github.com/user-attachments/assets/4d088ee1-c6da-4891-8199-444321b85031" />
+
+Con los resultados obtenidos se puede analizar la **escalabilidad del algoritmo de multiplicación de matrices con OpenMP**, observando que para **matrices pequeñas** el uso de más hilos no aporta mejoras significativas e incluso puede generar sobrecarga, mientras que en **matrices grandes** el paralelismo reduce considerablemente el tiempo de ejecución, mostrando un crecimiento cúbico del costo computacional conforme aumenta el tamaño de la matriz. Además, el cálculo del **promedio y la desviación estándar** permite evaluar tanto el rendimiento típico como la estabilidad de las ejecuciones, evidenciando que el **speedup y la eficiencia** se incrementan con el número de hilos hasta cierto punto, a partir del cual la ganancia se estanca por limitaciones de memoria y sincronización.
+
