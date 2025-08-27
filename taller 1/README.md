@@ -23,12 +23,13 @@ El programa:
 
 ---
 
-## **🚀 Ejecución**
+## **🚀 Compilación **
 Con `Makefile`:
 ```bash
 make
+` ``` `
 ---
-gcc -O2 -fopenmp mmClasicaOpenMP.c -o clasicaOpenMP
+
 
 
 
