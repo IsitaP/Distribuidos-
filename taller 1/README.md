@@ -29,7 +29,7 @@ Con `Makefile`:
 make
 ```
 ```
-## 🚀 Ejecución
+## **🚀 ejecución **
 Formato:
 ```bash
 ./clasicaOpenMP SIZE HILOS
