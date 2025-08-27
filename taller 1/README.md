@@ -106,7 +106,6 @@ chmod +x lanzador.pl
 ## **🚀 Archivos generados **
 dependiendo la cantidad de hilos y el tamaño se crea un ejemplo unarchivo.`dat`.
 1. `ejemplo`:
- ```bash
 <img width="640" height="537" alt="image" src="https://github.com/user-attachments/assets/adf2b2c1-2187-4942-8c86-c310451dcefa" />
 
 ```
