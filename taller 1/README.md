@@ -47,5 +47,22 @@ multiplica 2 matrices 500 *500 usando 4 hilos
 
 representa el tiempo de ejecución en microsegundos para multiplicar dos matrices de 340 × 340 con 2 hilos.
 
+# 📊 Script de Automatización de Ejecuciones (`lanzador.pl`)
+
+Este script en **Perl** automatiza la ejecución del programa `mmClasicaOpenMP` en **múltiples tamaños de matrices** y con diferentes números de hilos.  
+El objetivo es recolectar datos de rendimiento para analizarlos posteriormente (tiempos de ejecución).
+
+---
+
+## 📌 Descripción
+
+- Recorre una lista de **tamaños de matriz** (ej: 340, 400, 4000…).  
+- Para cada tamaño, prueba diferentes cantidades de **hilos OpenMP** (ej: 1, 2, 4, 8, 16, 20).  
+- Cada combinación `(tamaño, hilos)` se repite **30 veces** (configurable).  
+- La salida (tiempo de ejecución en microsegundos) se guarda en un archivo `.dat` separado.  
+- Cada archivo tiene el formato:
+
+  <img width="634" height="31" alt="image" src="https://github.com/user-attachments/assets/d5066282-07af-49df-b01d-f6a137f88829" />
+donde 
 
 
