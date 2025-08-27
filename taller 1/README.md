@@ -28,9 +28,7 @@ Con `Makefile`:
 ```bash
 make
 
-## **🚀 Ejecución **
-Con `Makefile`:
-```bash
-make
+---
+##** Ejecución**
 
 
