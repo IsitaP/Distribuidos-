@@ -85,14 +85,20 @@ Con `numero de repeticiones`:
 $Repeticiones = 30;
 
 ```
+
 ## **🚀 ejecución **
 Formato:
-1. ```bash
+ ```bash
 gcc -O2 -fopenmp mmClasicaOpenMP.c -o mmClasicaOpenMP
 
 ```
 2. `dar permisos`:
  ```bash
-gcc -O2 -fopenmp mmClasicaOpenMP.c -o mmClasicaOpenMP
+chmod +x lanzador.pl
+
+```
+Formato:
+ ```bash
+./lanzador.pl
 
 ```
