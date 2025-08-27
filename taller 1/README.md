@@ -62,7 +62,14 @@ El objetivo es recolectar datos de rendimiento para analizarlos posteriormente (
 - La salida (tiempo de ejecución en microsegundos) se guarda en un archivo `.dat` separado.  
 - Cada archivo tiene el formato:
 
-  <img width="634" height="31" alt="image" src="https://github.com/user-attachments/assets/d5066282-07af-49df-b01d-f6a137f88829" />
-donde 
+<img width="654" height="21" alt="image" src="https://github.com/user-attachments/assets/1c480c53-da0d-4697-889d-b0e9c956a8d4" />
 
+donde 640 es el tamaño y el 4 es la cantidad de hilos
+
+# *** Dentro el script se puede modificar***
+
+Con `Ejecutable a probar`:
+```perl
+$Nombre_Ejecutable = "mmClasicaOpenMP";
+```
 
