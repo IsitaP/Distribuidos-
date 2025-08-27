@@ -113,3 +113,28 @@ En estos archivos se encuentra 30 lineas una por cada repeticion, co el tiempo d
 ## **Ejemplo generado en consola **
 <img width="487" height="264" alt="image" src="https://github.com/user-attachments/assets/8ea0327f-bc20-4c6b-9a33-92df9a2fca46" />
 
+# 📊 Análisis de Resultados con Python
+
+Este módulo (`analisis.py`) permite procesar los archivos `.dat` generados por el **lanzador en Perl** (`lanzador.pl`).  
+El objetivo es calcular el **promedio** y la **desviación estándar** de los tiempos de ejecución para cada combinación `(matriz, hilos)` y generar un archivo `.csv` que pueda abrirse en **Excel o Google Sheets**.
+
+---
+
+## 📌 Descripción del script
+
+El script realiza los siguientes pasos:
+
+1. **Busca** todos los archivos `.dat` en la carpeta de trabajo.  
+2. **Lee** las 30 repeticiones de tiempo (en microsegundos) contenidas en cada archivo.  
+3. **Calcula** el promedio y la desviación estándar usando `numpy`.  
+4. **Extrae** del nombre del archivo el tamaño de la matriz y la cantidad de hilos (ejemplo: `mmClasicaOpenMP-340-Hilos-2.dat`).  
+5. **Guarda** los resultados en un archivo `resultados.csv`, listo para abrir en Excel.  
+
+---
+
+## 🛠️ Dependencias
+
+El script usa librerías estándar de Python más **numpy**:
+
+```bash
+pip install numpy
