@@ -72,4 +72,27 @@ Con `Ejecutable a probar`:
 ```perl
 $Nombre_Ejecutable = "mmClasicaOpenMP";
 ```
+Con `tamaño de matrices`:
+```perl
+@Size_Matriz = ("340","320","400","8000","9600","12000","4000","7200");
+```
+Con `numero de hilos`:
+```perl
+@Num_Hilos = (1,2,4,8,16,20);
+```
+Con `numero de repeticiones`:
+```perl
+$Repeticiones = 30;
 
+```
+## **🚀 ejecución **
+Formato:
+1. ```bash
+gcc -O2 -fopenmp mmClasicaOpenMP.c -o mmClasicaOpenMP
+
+```
+2. `dar permisos`:
+ ```bash
+gcc -O2 -fopenmp mmClasicaOpenMP.c -o mmClasicaOpenMP
+
+```
