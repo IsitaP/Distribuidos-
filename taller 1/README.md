@@ -108,7 +108,6 @@ dependiendo la cantidad de hilos y el tamaño se crea un ejemplo unarchivo.`dat`
 1. `ejemplo`:
 <img width="640" height="537" alt="image" src="https://github.com/user-attachments/assets/adf2b2c1-2187-4942-8c86-c310451dcefa" />
 
-```
 En estos archivos se encuentra 30 lineas una por cada repeticion, co el tiempo de ejecución en microsegunndos
 
 ## **Ejemplo generado en consola **
