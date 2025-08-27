@@ -33,7 +33,7 @@ Formato:
 ```bash
 ./clasicaOpenMP SIZE HILOS
 ```
-'Ejemplo'
+Ejemplo:
 ```bash
 ./clasicaOpenMP 500 4
 ```
