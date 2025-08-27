@@ -66,7 +66,7 @@ El objetivo es recolectar datos de rendimiento para analizarlos posteriormente (
 
 donde 640 es el tamaño y el 4 es la cantidad de hilos
 
-# *** Dentro el script se puede modificar***
+# * Dentro el script se puede modificar*
 
 Con `Ejecutable a probar`:
 ```perl
