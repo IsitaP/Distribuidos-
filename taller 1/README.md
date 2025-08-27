@@ -87,7 +87,7 @@ $Repeticiones = 30;
 ```
 
 ## **🚀 ejecución **
-Formato:
+1. `Compilacion `:
  ```bash
 gcc -O2 -fopenmp mmClasicaOpenMP.c -o mmClasicaOpenMP
 
@@ -97,8 +97,21 @@ gcc -O2 -fopenmp mmClasicaOpenMP.c -o mmClasicaOpenMP
 chmod +x lanzador.pl
 
 ```
-Formato:
+3. `ejecución del programa`:
  ```bash
 ./lanzador.pl
 
 ```
+
+## **🚀 Archivos generados **
+dependiendo la cantidad de hilos y el tamaño se crea un ejemplo unarchivo.`dat`.
+1. `ejemplo`:
+ ```bash
+<img width="640" height="537" alt="image" src="https://github.com/user-attachments/assets/adf2b2c1-2187-4942-8c86-c310451dcefa" />
+
+```
+En estos archivos se encuentra 30 lineas una por cada repeticion, co el tiempo de ejecución en microsegunndos
+
+## **Ejemplo generado en consola **
+<img width="487" height="264" alt="image" src="https://github.com/user-attachments/assets/8ea0327f-bc20-4c6b-9a33-92df9a2fca46" />
+
