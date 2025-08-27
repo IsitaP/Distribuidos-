@@ -1,5 +1,5 @@
 # **Explicacion del codigo mmClasicaOpenMP**
-
+---
 # **Multiplicación de Matrices con OpenMP**
 
 Proyecto en **C** que implementa la multiplicación clásica de matrices y la paraleliza usando **OpenMP** para aprovechar múltiples núcleos de procesamiento.
