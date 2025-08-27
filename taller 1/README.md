@@ -29,8 +29,14 @@ Con `Makefile`:
 make
 ```
 ```
----
-##rfghjklñ
+## 🚀 Ejecución
+Formato:
+```bash
+./clasicaOpenMP SIZE HILOS
+
+Ejemplo
+./clasicaOpenMP 500 4
+multiplica 2 matrices 500 *500 usando 4 hilos
 
 
 
