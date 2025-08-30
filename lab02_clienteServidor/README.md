@@ -41,7 +41,7 @@ java TCPClient
 ## 📂 Ejecucion remota (cliente en otra maquina)
 - Mantener el servidor ejecutandose y abrir el puerto 8888 en firewall.
 - Editar TCPClient.java y reemplazar "127.0.0.1" por la IP del servidor (p.ej. "192.168.1.50"), recompilar y ejecutar java TCPClient desde la maquina cliente.
-## Desde la raiz del repo (usando classpath)
+## Desde la raiz del repositorio (usando classpath)
  ```bash
 # Servidor
 cd "C:\\Users\\anaso\\OneDrive\\Escritorio\\sistemas-distribuidos-"
