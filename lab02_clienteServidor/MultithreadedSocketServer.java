@@ -8,7 +8,7 @@
 #######################################################################################*/
 import java.net.*;
 
-public class MultithreadedSocketServer {//jhgfd
+public class MultithreadedSocketServer {
   public static void main(String[] args) throws Exception {
     try{
       //Se crea un servidor de sockets en el puerto 8888
