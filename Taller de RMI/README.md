@@ -142,6 +142,8 @@ El video muestra:
 7. Prueba con **dos clientes simultáneos** conectados al mismo servidor.
 
 ---
+## 8. Conclusion ✅
+La implementación del servicio de Biblioteca con Java RMI permitió comprender y aplicar los fundamentos de la programación distribuida en Java, diseñando un sistema cliente/servidor capaz de operar en distintas máquinas, con métodos remotos síncronos que garantizan la consistencia de las operaciones, persistencia en archivo plano para mantener actualizado el inventario de libros y soporte para múltiples clientes concurrentes; en conjunto, este proyecto demuestra cómo RMI facilita la creación de aplicaciones distribuidas confiables y aplicables a escenarios reales como la gestión de bibliotecas o inventario
 
 ## LINK YOTUBE VIDEO 🎥
 
