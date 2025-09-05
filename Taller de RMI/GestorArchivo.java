@@ -1,3 +1,13 @@
+/*#######################################################################################
+ # Fecha: 29-08-2025
+ # Autor: Isabella Palacio Fajardo, Ana Sofia Grass, Sergio Ortiz, Juan Sebastian Vargas
+ # Tema:
+ #   - Programación distribuida en Java
+ #   - Comunicación Cliente-Servidor con RMI
+ #   - Manejo de objetos remotos
+ #   - Persistencia de datos en archivo plano
+ #   - Acceso concurrente de múltiples clientes
+#######################################################################################*/
 import java.io.*;
 import java.util.*;
 //Clase para gestionar el archivo de la base de datos de la biblioteca.
