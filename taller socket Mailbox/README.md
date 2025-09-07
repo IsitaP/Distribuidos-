@@ -48,7 +48,7 @@ En otra terminal , en la misma máquina, se puede iniciar un cliente con:
 ```bash
 java  socketudpcli 172.19.100.27
 ```
-4. 5. Finalizar la conexión
+4. Finalizar la conexión
    
 Para cerrar  cliente, solo se necesita escribir:
 ```bash
