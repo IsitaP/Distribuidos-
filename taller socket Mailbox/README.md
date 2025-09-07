@@ -28,4 +28,29 @@ por otro lado, en la consola del servidor imprime el mensaje enviado por el clie
 para cerrar la conexión del servidor, desde cliente se debe escribir la palabra "fin".
 <img width="657" height="176" alt="image" src="https://github.com/user-attachments/assets/0e33317c-61e7-4e80-b0a9-d73143bb6cfe" />
 
-
+## ejecución 
+1. Compilar los archivos
+   
+Primero se deben compilar todos los ficheros .java (servidor y cliente).
+En la consola, se ubica en la carpeta de talleres y ejecuta
+```bash
+javac *.java
+```
+2. Iniciar el servidor
+   
+En una terminal , se debe correr primero el servidor
+```bash
+ java socketudpser
+```
+3. Conectar clientes locales
+   
+En otra terminal , en la misma máquina, se puede iniciar un cliente con:
+```bash
+java  socketudpcli 172.19.100.27
+```
+4. 5. Finalizar la conexión
+   
+Para cerrar  cliente, solo se necesita escribir:
+```bash
+fin
+```
