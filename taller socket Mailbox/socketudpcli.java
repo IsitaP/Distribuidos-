@@ -1,3 +1,10 @@
+/*#######################################################################################
+ # Fecha: 8-08-2025
+ # Autor: Isabella Palacio Fajardo, Ana Sofia Grass, Sergio Ortiz, Juan Sebastian Vargas
+ # Tema:
+ #   - Comunicación Cliente-Servidor en Java
+ #   - Implementación con Sockets TCP y UDP
+#######################################################################################*/
 import java.net.*;
 import java.io.*;
 // crea la clase socketudpcli y su metodo principal main
@@ -50,4 +57,5 @@ public class socketudpcli {
       }
    }
 }
+
 
