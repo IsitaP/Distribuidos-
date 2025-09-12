@@ -1,8 +1,9 @@
-/*
-Taller 3
-Clase: Sistemas distribuidos
-Autores: Ana Sofía Grass, Sebastián Vargas, Sergio Ortiz, Isabela Palacio
-*/
+/*#######################################################################################
+ # Fecha: 8-08-2025
+ # Autor: Isabella Palacio Fajardo, Ana Sofia Grass, Sergio Ortiz, Juan Sebastian Vargas
+ # Tema:
+ #   - ejecución secuencial y la concurrente en Java, aplicando el concepto de hilos
+#######################################################################################*/
 
 Package threadsJarroba;  // Paquete donde reside esta clase
 
