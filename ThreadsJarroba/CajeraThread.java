@@ -1,11 +1,11 @@
-﻿package threadsJarroba; // Paquete del ejemplo
+/*#######################################################################################
+ # Fecha: 8-08-2025
+ # Autor: Isabella Palacio Fajardo, Ana Sofia Grass, Sergio Ortiz, Juan Sebastian Vargas
+ # Tema:
+ #   - ejecución secuencial y la concurrente en Java, aplicando el concepto de hilos
+#######################################################################################*/
 
-/*
-Taller 3
-Clase: Sistemas distribuidos
-Autores: Ana Sofía Grass, Sebastián Vargas, Sergio Ortiz, Isabela Palacio
-*/
-
+package threadsJarroba; // Paquete del ejemplo
 public class CajeraThread extends Thread { // Hilo que modela a una cajera atendiendo a un cliente
 
 	private String nombre; // Nombre de la cajera
